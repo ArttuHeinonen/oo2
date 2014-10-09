@@ -1,5 +1,4 @@
 #include "Controls.h"
-#include "main.h"
 
 Controls* Controls::controls; // pointteri controls controls namespacesta
 

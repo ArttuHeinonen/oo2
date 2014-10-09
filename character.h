@@ -8,7 +8,7 @@ protected:
 	int posX, posY;
 	float velocityX, velocityY;
 public:
-	Character(string texturePath, int positionX, int positionY);
+	Character();
 	~Character();
 	void move();
 	void setDirection(int DX, int DY);

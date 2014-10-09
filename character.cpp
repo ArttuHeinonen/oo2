@@ -1,8 +1,6 @@
 #include "character.h"
 
-Character::Character(string texturePath, int positionX, int positionY){
-	posX = positionX;
-	posY = positionY;
+Character::Character(){
 }
 
 Character::~Character(){

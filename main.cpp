@@ -1,6 +1,8 @@
 #include <SFML/Graphics.hpp>
 #include "player.h"
 #include "globals.h"
+#include "Controls.h"
+#include "Content.h"
 using namespace sf;
 
 
@@ -39,23 +41,11 @@ int main()
 				if(event.key.code == Keyboard::Escape){
 					window.close();
 				}
-				if (event.key.code == Keyboard::Left && event.key.code == Keyboard::Right){
-					player.setDX(0);
-				}
-				else if (event.key.code == Keyboard::Left){
-					player.setDX(-1);
-				}
-				else if (event.key.code == Keyboard::Right){
-					player.setDX(1);
-				}
-
 			}
 
         }
 
 		//Logic here		
-		
-		player.move();
 
 		//FPS
 		if(elapsedTime.asMilliseconds() >= 1000){

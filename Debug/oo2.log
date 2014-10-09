@@ -1,16 +1,23 @@
-﻿Build started 2.10.2014 16:55:24.
+﻿Build started 9.10.2014 23:00:37.
      1>Project "D:\Kafei\Tyo\SFML\oo2\oo2\oo2.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\SFML-2.1\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\SFML-2.1\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt character.cpp Content.cpp Controls.cpp gameObject.cpp main.cpp player.cpp Utility.cpp
+         Utility.cpp
+         player.cpp
          main.cpp
-       Link:
-         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Kafei\Tyo\SFML\oo2\Debug\oo2.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\SFML-2.1\lib" "sfml-audio-d.lib" "sfml-graphics-d.lib" "sfml-main-d.lib" "sfml-system-d.lib" "sfml-window-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Kafei\Tyo\SFML\oo2\Debug\oo2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Kafei\Tyo\SFML\oo2\Debug\oo2.lib" /MACHINE:X86 Debug\character.obj
-         Debug\gameObject.obj
-         Debug\main.obj
-         Debug\player.obj
-         oo2.vcxproj -> D:\Kafei\Tyo\SFML\oo2\Debug\oo2.exe
-     1>Done Building Project "D:\Kafei\Tyo\SFML\oo2\oo2\oo2.vcxproj" (Build target(s)).
+     1>d:\kafei\tyo\sfml\oo2\oo2\main.cpp(29): warning C4930: 'Player player(void)': prototyped function not called (was a variable definition intended?)
+         Controls.cpp
+     1>d:\kafei\tyo\sfml\oo2\oo2\controls.cpp(7): error C2065: 'window' : undeclared identifier
+         Content.cpp
+         character.cpp
+     1>d:\kafei\tyo\sfml\oo2\oo2\character.cpp(11): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+         Generating Code...
+         Compiling...
+         gameObject.cpp
+     1>d:\kafei\tyo\sfml\oo2\oo2\gameobject.cpp(2): fatal error C1083: Cannot open include file: 'gameObject.h': No such file or directory
+         Generating Code...
+     1>Done Building Project "D:\Kafei\Tyo\SFML\oo2\oo2\oo2.vcxproj" (Build target(s)) -- FAILED.
 
-Build succeeded.
+Build FAILED.
 
-Time Elapsed 00:00:00.83
+Time Elapsed 00:00:04.32
