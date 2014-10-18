@@ -2,10 +2,15 @@
 
 Content* Content::content;
 
-Content::Content(void) //kerrotaan mistä löytyy contenttia
+Content::Content(void) //ladataan sisältö
 {
-	player.loadFromFile("Graphics\\UusiUljas.gif");
-	background.loadFromFile("Graphics\\taivas.png");
+	playerTex.loadFromFile("res/player.png");
+	//backgroundTex.loadFromFile("res/taivas.png");
+
+	if (!calibri.loadFromFile("res/calibri.ttf")){
+		printf("Error: font not found!\n");
+	}
+
 }
 
 Content::~Content(void)

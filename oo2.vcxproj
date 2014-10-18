@@ -14,7 +14,6 @@
     <ClCompile Include="character.cpp" />
     <ClCompile Include="Content.cpp" />
     <ClCompile Include="Controls.cpp" />
-    <ClCompile Include="gameObject.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="player.cpp" />
     <ClCompile Include="Utility.cpp" />

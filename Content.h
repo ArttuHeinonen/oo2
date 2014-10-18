@@ -8,8 +8,9 @@ private:
 
 	Content(void);
 public:
-	sf::Texture player;
-	sf::Texture background;
+	sf::Texture playerTex;
+	sf::Texture backgroundTex;
+	sf::Font calibri;
 	~Content(void);
 	static Content* get();
 };

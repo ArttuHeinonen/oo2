@@ -57,6 +57,7 @@ int main()
 			fps++;
 		}
 
+
 		//Draw here
 		window.clear(Color::Black);
 		window.draw(debugText);
