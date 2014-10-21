@@ -1,6 +1,10 @@
-﻿Build started 18.10.2014 9:29:18.
+﻿Build started 20.10.2014 15:42:04.
      1>Project "D:\Kafei\Tyo\SFML\oo2\oo2\oo2.vcxproj" on node 2 (Build target(s)).
-     1>Link:
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\SFML-2.1\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>d:\kafei\tyo\sfml\oo2\oo2\main.cpp(29): warning C4930: 'Player player(void)': prototyped function not called (was a variable definition intended?)
+       Link:
          D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Kafei\Tyo\SFML\oo2\Debug\oo2.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\SFML-2.1\lib" "sfml-audio-d.lib" "sfml-graphics-d.lib" "sfml-main-d.lib" "sfml-system-d.lib" "sfml-window-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Kafei\Tyo\SFML\oo2\Debug\oo2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Kafei\Tyo\SFML\oo2\Debug\oo2.lib" /MACHINE:X86 Debug\character.obj
          Debug\Content.obj
          Debug\Controls.obj
@@ -12,4 +16,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:01.45
+Time Elapsed 00:00:00.87

@@ -36,16 +36,13 @@ int main()
         {
             if (event.type == Event::Closed)
                 window.close();
-
-			if(event.type == Event::KeyPressed){
-				if(event.key.code == Keyboard::Escape){
-					window.close();
-				}
-			}
-
         }
+		if (Controls::get()->iskeydown(Keyboard::Escape)){
+			window.close();
+		}
 
 		//Logic here		
+		Controls::get()->update();
 
 		//FPS
 		if(elapsedTime.asMilliseconds() >= 1000){

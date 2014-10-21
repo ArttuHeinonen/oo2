@@ -5,13 +5,14 @@ class Content
 {
 private:
 	static Content* content;
-
-	Content(void);
-public:
 	sf::Texture playerTex;
 	sf::Texture backgroundTex;
 	sf::Font calibri;
+	Content(void);
+public:
 	~Content(void);
+	sf::Texture getPlayerTexture();
+	sf::Font getCalibriFont();
 	static Content* get();
 };
 
